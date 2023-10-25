@@ -11,11 +11,12 @@
   console.log(printCurrentTime());
 
   // Task 2: Write a function which, when invoked, prints your name. Then invoke it twice.
-  function myName() {
-    console.log("Evelyn");
+  function myName(name) {
+    console.log(name);
   }
 
-  myName(); myName();
+  myName("Evelyn"); 
+  myName("Joy");
 
   // Task 3: Write a function called `printGreeting`. When invoked using the examples
   // below, it should print "Hello Bob" or "Hello Sue":
@@ -27,7 +28,8 @@
     console.log("Hello " + name);
   }
 
-  printGreeting("Evelyn");
+  printGreeting("Bob");
+  printGreeting("Sue");
 
 
   // Task 4: Write a function called `multiply` which multiplies two numbers together and returns the value
