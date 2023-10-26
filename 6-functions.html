@@ -59,13 +59,14 @@
   // } 
   function warmEnough(tem) {
     if (tem > 10) {
-      return true;
+      return "Go for a run!";
+   } else {
+    return "Yoga at home!"
    }
   }
 
-  if (warmEnough(15)) {
-   console.log("Go for a run!")
-   }
+  console.log(warmEnough(15))
+  console.log(warmEnough(8))
 
 
 </script>
